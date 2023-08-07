@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1320px;
+    background-color: #f0f0f0;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('background2\ img.png');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 20px 40px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+nav ul li {
+    margin: 0 55px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li span {
+    color: rgb(86, 42, 68);
+}
+
+nav ul li a:hover {
+    color: #7c146c;
+    text-decoration: underline;
+}
+
+.profile {
+    margin: 30px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.profile:hover {
+    transform: scale(1.1);
+}
+
+.details {
+    max-width: 900px;
+    margin: 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.text {
+    max-width: 1000px;
+    padding: 40px;
+    text-align: left;
+}
+
+.text h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+
+
+.text p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #eee;
+}
+
+.button {
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #7c146c;
+    color: #dfd4d4;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: lowercase;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
